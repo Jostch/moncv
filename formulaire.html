@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Nous contacter</h1>
+    <form action="">
+        <div>
+            <label for="nom">NOM </label><input type="text" name="" id="nom" placeholder="NOM"><br>
+            <label for="prenom">PRENOM </label><input type="text" name="" id="prenom" placeholder="PRENOM"><br>
+            <label for="tel">TELEPHONE </label><input type="text" name="" id="tel" placeholder="TELEPHONE"><br>
+            <label for="mail">E-MAIL </label><input type="email" name="" id="mail" placeholder="E-MAIL"><br>
+        </div>
+
+        <div>
+            <label for="pays">PAYS</label>
+            <select name="" id="pays">
+                <option value="">-- Selectionner le Pays --</option>
+                <option value="angola">Angola</option>
+                <option value="burundi">Burundi</option>
+                <option value="centrafrique">Centrafrique</option>
+                <option value="ouganda">Ouganda</option>
+                <option value="republique democratique du congo">Republique Democratique du Congo</option>
+                <option value="republique du congo">Republique du Congo</option>
+                <option value="rwanda">Rwanda</option>
+                <option value="tanzanie">Tanzanie</option>
+                <option value="soudan">Soudan</option>
+                <option value="zambie">Zambie</option>
+            </select>
+        </div>
+        
+        <div>
+            <label for="jour">DATE </label><input type="date" name="" id="jour" placeholder="DATE"><br>
+            <label for="photo">PHOTO </label><input type="image" src="" alt="avatar" placeholder="Inserer la photo" id="photo"><br>
+            <textarea name="" id="" cols="30" rows="5"></textarea>
+        </div>
+
+        <div>
+            <fieldset>
+                <legend>Etudiant : </legend>
+                <input type="radio" name="etudiant" id="non"><label for="non"> NON</label>
+                <input type="radio" name="etudiant" id="oui"><label for="oui"> OUI</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Compétence</legend>
+                <input type="checkbox" name="competence" id="github"><label for="github"> Github</label><br>
+                <input type="checkbox" name="competence" id="html"><label for="html"> Html</label><br>
+                <input type="checkbox" name="competence" id="css"><label for="css"> CSS</label>
+            </fieldset>
+        </div>
+
+        <div>
+            <button type="submit">ENVOYER</button>
+            <button type="reset">ANNULATION</button>
+        </div>
+
+    </form>
+</body>
+</html>
