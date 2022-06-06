@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    border: 1px solid red;
+    width: 100%;
+    max-width: 760px;
+    min-height: 1000px;
+
+    
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+}
+
+.profil{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center; 
+
+    background: #003147;
+}
+
+span{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+}
+.connaissance{
+    display: flex;
+    flex-direction: column;
+}
+
+.language{
+    display: flex;
+    flex-direction: row;
+}
+
+.box{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.langue{
+    display: flex;
+    flex-direction: row;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: row;
+}
+
+.input-box-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.langue-1 ,.langue-2 ,.langue-3{
+    border: 1px solid black;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    margin: 5px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+input ,textarea ,select{
+    padding: 5px 5px 5px 5px;
+    margin: 2px;
+    width: 250px;
+    
+
+    border: 1px solid black;
+    border-radius: 5px;
+
+    outline: none;
+    font-family: inherit;
+    font-size: inherit;
+    
+}

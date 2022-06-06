@@ -1,3 +1,4 @@
+/*  
 body{
     background-color: blueviolet;
     color: white;
@@ -9,4 +10,19 @@ h2{
 .titres{
     font-size: 40px !important;
 }
+*/
+ 
 
+
+#box div{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 20px;
+}
+
+#box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
