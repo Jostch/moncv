@@ -1,0 +1,140 @@
+/* Metton du style sur notre page cv */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    border: 1px solid #707070;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    color: #707070;
+    margin: 10px;
+    
+    
+}
+div .lien{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div .profils{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+div .name{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+div .name a{
+    text-decoration: none;
+    padding-right: 5px;
+    color: #707070;
+}
+div .name h1{
+    font-size: 40px;
+}
+div .name span{
+    color: #FFFFFF;
+    background-color: #4595F4;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+div .paras ,.competence ,.langues ,.experience ,.contacts ,.bloc{
+    display: flex;
+    flex-direction: column;
+}
+
+div .image img{
+
+    border-radius: 50px;
+    /* box-shadow: 0 10px 10px rgba(0, 0, 0, 4); */
+    box-shadow: inset 0 0 1em #FF00, 0 0 0.5em #707070;
+}
+
+div .card, .langue{
+    display: flex;
+    flex-direction: row;
+}
+
+div .cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+div .cadres{
+    display: flex;
+    flex-direction: row;
+}
+
+div .card{
+    border: 1px solid #707070;
+    border-radius: 10px;
+    padding: 6px;
+
+    margin: 5px;
+    
+}
+
+div .langue{
+    border: 1px solid #707070;
+    border-radius: 5px;
+    padding: 6px;
+    margin: 5px;
+}
+
+.percent h3{
+    padding: 15px;
+}
+
+.card h3{
+    font-weight:500;
+    font-size: 30px;
+    
+}
+
+div .langue p{
+    font-size: 20px;
+    padding: 5px;
+}
+
+div .parcours{
+    display: flex;
+    flex-direction: row;
+}
+
+div .style{
+    display: flex;
+    flex-direction: row;
+}
+
+div .circle{
+    background-color: #707070;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+
+div .line{
+    position: relative;
+    background-color: #707070;
+    height: 2px;
+    width: 80px;
+
+    top: 7px;
+    left: 4px;
+}

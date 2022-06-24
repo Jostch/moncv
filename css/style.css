@@ -11,7 +11,13 @@ h2{
     font-size: 40px !important;
 }
 */
- 
+
+
+ .error{
+    background: #F00;
+ }
+
+
 
 
 #box div{
@@ -25,4 +31,11 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media (min-width : 700px){
+
+    #box div{
+        background-color: wheat;
+    }
 }
