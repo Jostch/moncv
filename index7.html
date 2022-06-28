@@ -39,7 +39,7 @@
             <p class="para">Dans mon parcours en tant développeur , j'ai acquis plusiers<br>compétences, en voici quelques unes :</p>
             <div class="cards">
                 <div class="card">
-                    <div class="percent"><h3>30%</h3></div>
+                    <span class="percent">30%</span>
                     <div class="bloc">
                         <h3>Github</h3>
                         <span>Gérer les differentes<br>versions des mes projets</span>
@@ -82,7 +82,7 @@
         </div>
 
         <div class="experience">
-            <h2 class="title">Expérience</h2>
+            <h2 class="title">Expériences</h2>
             <p class="para">Mon parcours au fil du temps :</p>
             <div class="parcours">
                 <div class="parcour">
@@ -123,8 +123,8 @@
             <div class="forms">
                 <form action="" method="post">
                     <div class="box-1">
-                        <input type="text" name="name" id="" placeholder="Entrez votre Nom">
-                        <input type="text" name="prenom" id="" placeholder="Entrez votre Prénom">
+                        <input type="text" name="name" id="" placeholder="Entrez votre Nom" class="firt-name">
+                        <input type="text" name="prenom" id="" placeholder="Entrez votre Prénom" class="last-nama">
                     </div>
                     <div class="box-2">
                         <input type="email" name="adressemail" id="" placeholder="Entrez votre Adresse email">
@@ -137,10 +137,12 @@
                             <option value=""></option>
                             <option value=""></option>
                         </select>
-                        <div class="sousbox">
-                            <input type="checkbox" name="homme" id=""><label for="homme">Homme</label>
-                            <input type="checkbox" name="femme" id=""><label for="femme">Femme</label>
+                        <div class="check">
+                            <input type="radio" name="sexe" id="homme"><label for="homme">Homme</label>
+                            <input type="radio" name="sexe" id="femme"><label for="femme">Femme</label>
                         </div>
+                    </div>
+                    <div class="box-4"> 
                         <textarea name="" id="" cols="30" rows="10" placeholder="Entrez votre message ici"></textarea>
                         <span class="alerte">*ce champ est obligatoire !</span>
                         <button class="btn">Envoyer</button>

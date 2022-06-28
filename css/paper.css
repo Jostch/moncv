@@ -6,95 +6,98 @@
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 body{
     display: flex;
     justify-content: center;
 }
 
 .container{
-    border: 1px solid #707070;
     display: flex;
     flex-direction: column;
-    align-content: space-around;
+    
     color: #707070;
     margin: 10px;
-    
-    
+    max-width: 900px;
 }
-div .lien{
+
+.lien{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-div .profils{
+.profils{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    
 }
 
-div .name{
+.name{
     padding-left: 15px;
     padding-top: 15px;
 }
 
-div .name a{
+.name a{
     text-decoration: none;
     padding-right: 5px;
     color: #707070;
 }
-div .name h1{
+.name h1{
     font-size: 40px;
 }
-div .name span{
+.name span{
     color: #FFFFFF;
     background-color: #4595F4;
     padding: 6px;
     border-radius: 10px;
 }
 
-div .paras ,.competence ,.langues ,.experience ,.contacts ,.bloc{
+.paras ,.competence ,.langues ,.experience ,.contacts ,.bloc{
     display: flex;
     flex-direction: column;
+    
 }
 
-div .image img{
+.image img{
 
     border-radius: 50px;
     /* box-shadow: 0 10px 10px rgba(0, 0, 0, 4); */
     box-shadow: inset 0 0 1em #FF00, 0 0 0.5em #707070;
 }
 
-div .card, .langue{
+.card, .langue{
     display: flex;
     flex-direction: row;
 }
 
-div .cards{
+.cards{
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
+
 }
 
-div .cadres{
+.cadres{
     display: flex;
     flex-direction: row;
 }
 
-div .card{
+.card{
     border: 1px solid #707070;
     border-radius: 10px;
     padding: 6px;
-
-    margin: 5px;
-    
+    width: 49%;
+    margin-bottom: 10px;
 }
 
-div .langue{
+.langue{
     border: 1px solid #707070;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 6px;
     margin: 5px;
+    width: 150px;
+    height: 50px;
 }
 
 .percent h3{
@@ -107,34 +110,155 @@ div .langue{
     
 }
 
-div .langue p{
+.langue p{
     font-size: 20px;
     padding: 5px;
 }
 
-div .parcours{
+.parcours{
     display: flex;
     flex-direction: row;
 }
 
-div .style{
+.parcour{
+    padding-right: 20px;
+}
+.style{
     display: flex;
     flex-direction: row;
 }
 
-div .circle{
+.circle{
     background-color: #707070;
     height: 15px;
     width: 15px;
     border-radius: 50%;
 }
 
-div .line{
+.line{
     position: relative;
     background-color: #707070;
-    height: 2px;
+    height: 1px;
     width: 80px;
-
     top: 7px;
     left: 4px;
+}
+
+
+
+
+.box-1 input{
+    height: 40px;
+    width: 45%;
+    padding: 0 15px;
+    margin: 10px 0;
+    outline: none;
+    border: 1px solid #707070;
+
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.box-2 input{
+    height: 40px;
+    width: 90.5%;
+    padding: 0 15px;
+    margin: 10px 0;
+    outline: none;
+    border: 1px solid #707070;
+
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.box-3 select{
+    height: 40px;
+    width: 45%;
+    padding: 0 15px;
+    margin: 10px 0;
+    outline: none;
+    border: 1px solid #707070;
+
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.check{
+    position: relative;
+    top: 15px;
+    padding: 5px;
+}
+label{
+    margin: 5px;
+}
+
+
+
+.box-3{
+    display: flex;
+    flex-direction: row;
+}
+
+.box-4{
+    display: flex;
+    flex-direction: column;
+}
+
+.box-4 textarea{
+    height: 200px;
+    width: 90.5%;
+    padding: 15px 15px;
+    margin: 10px 0;
+    outline: none;
+    border: 1px solid #707070;
+
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.alerte{
+    color: red;
+    margin: 0 0 5px;
+}
+
+.btn{
+    height: 40px;
+    width: 170px;
+    background-color: #4595F4;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 450;
+    border-style: none;
+    border-radius: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+/* Effet de survolo (hover) */
+
+input:hover{
+    border: 1px solid #569EF5;
+}
+select:hover{
+    border: 1px solid #569EF5;
+}
+textarea:hover{
+    border: 1px solid #569EF5;
+}
+
+.card:hover{
+    background-color: #569EF5;
+    color: #FFFFFF;
+    border: 1px solid #569EF5;
+}
+
+.langue:hover{
+    background-color: #569EF5;
+    color: #FFFFFF;
+    border: 1px solid #569EF5;
 }
