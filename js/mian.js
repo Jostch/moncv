@@ -25,6 +25,7 @@ var nomObjet = {
 
 */
 
+/*
 var voiture = {
     coleur : "Verte",
     nombrePorte : 4,
@@ -40,3 +41,5 @@ var voiture = {
         document.write("La voiture eclaire la route pendant qu'il fait noir !");
     }
 }
+*/
+
