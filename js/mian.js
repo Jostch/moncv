@@ -43,3 +43,40 @@ var voiture = {
 }
 */
 
+//Creons un modele objet 
+/*
+var namModelObjet = function() {
+
+    //Attributs ou proprietés
+    this.propriete1 = valeur1;
+    this.propriete2 = valeur2;
+
+    //Methodes
+    this.methode1 = function() {
+        instruction1;
+        instruction2;
+        etc;
+    }
+}
+*/
+
+
+var modelVoiture = function(name, speed, color, price) {
+    this.name = name;
+    this.speed = speed;
+    this.color = color;
+    this.price = price;
+
+    this.avancer = function(x) {
+        var i = 0;
+        while (i < x) {
+            document.write("la voiture " + this.name + " avance vouummm ! <br/>");
+            i++;
+        }
+        
+    }
+
+}
+
+
+

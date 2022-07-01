@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #03A9FF;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+header{
+    background-color: #FFF;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.contenu{
+    background-color: #FFF;
+    margin-bottom: 10px;
+    padding: 20px;
+}
