@@ -1,0 +1,11 @@
+{
+    "profil" :{
+        "photo" : "images/profile.png",
+        "titre" : "Josué Simba",
+        "role" : "Développeur",
+        "mail" : "josuesimba51@gmail.com",
+        "number" : "+243 814 400 121",
+        "link-git" "https://github.com/Jostch/moncv"
+    },
+
+}

@@ -46,7 +46,8 @@ body{
     color: #707070;
 }
 .name h1{
-    font-size: 50px;
+    font-weight: 400;
+    font-size: 60px;
 }
 .name span{
     color: #FFFFFF;
@@ -132,6 +133,7 @@ body{
 .style{
     display: flex;
     flex-direction: row;
+    padding-bottom: 5px;
 }
 
 .circle{
@@ -155,7 +157,7 @@ body{
 
 .box-1 input{
     height: 40px;
-    width: 45%;
+    width: 49.5%;
     padding: 0 15px;
     margin: 10px 0;
     outline: none;
@@ -168,7 +170,7 @@ body{
 
 .box-2 input{
     height: 40px;
-    width: 90.5%;
+    width: 99.5%;
     padding: 0 15px;
     margin: 10px 0;
     outline: none;
@@ -181,7 +183,7 @@ body{
 
 .box-3 select{
     height: 40px;
-    width: 45%;
+    width: 49.5%;
     padding: 0 15px;
     margin: 10px 0;
     outline: none;
@@ -216,7 +218,7 @@ label{
 
 .box-4 textarea{
     height: 200px;
-    width: 90.5%;
+    width: 99.5%;
     padding: 15px 15px;
     margin: 10px 0;
     outline: none;
